@@ -1,0 +1,103 @@
+Užduotis:
+Dirbti su šiuo masyvu:
+[4, 5, -5556, 155, 640, '15x', 6789, -5564, 478, 654, 'obuolys', 789, -51, 55, -222, 0, -357, -56, 'trylika', 444, 7778, 4154, 4751];
+
+4. Tęsiant darbą su ankstesniu masyvu atlikti šias užduotis naudojant for ciklą ir map/forEach metodą. Kiekvieną užduotį atlikti abiem būdais (for ciklu ir map/forEach metodu). Visus narius išvesti į konsole pagal žemiau pateiktas sąlygas:
+4.1. Tik skaičius (number tipo duomenis).
+4.2. Tik tekstą (string tipo duomenis).
+4.3. Tik skaičius (number tipo duomenis) ir juos pakelti 4-tuoju laipsniu.
+4.4. Tik skaičius (number tipo duomenis) ir prie jų pridėti 55.
+4.5. Tik skaičius (number tipo duomenis) ir juos padalinti iš 2.
+4.6. Tik skaičius (number tipo duomenis) ir prieš juos pridėti teksta, tokiu formatu: "Number: 2".
+4.7. Tik skaičius (number tipo duomenis) ir pridėti tekstą su jų pačių indeksais, pvz.:
+  "Index: 0, Number: 2"
+  "Index: 1, Number: 3"
+  "Index: 2, Number: 5"
+  Ir t.t.
+4.8. Tik skaičius (number tipo duomenis) ir juos padauginti iš jų pačių indekso.
+4.9. Tik skaičius (number tipo duomenis) ir juos padauginti iš ankstesnio nario, pvz.:
+  - Pirmo skaičiaus dauginti nereikia.
+  - Antrą skaičių dauginti iš pirmo.
+  - Trečią skaičių dauginti iš antro.
+  - Ketvirta skaičių dauginti iš trečio.
+  - Penktą skaičių dauginti iš ketvirto.
+  Ir t.t.
+4.10. Tik tuos skaičius (number tipo duomenis), kuriuos padauginus iš 5, atsakymas gaunasi didesnis už 350.
+4.11. Tik tekstą (string tipo duomenis) ir prie kiekvieno teksto parašyti kiek simbolių jis turi, pvz. "Start has 5 symbols".
+4.12. Tik tekstą (string tipo duomenis), tačiau kiekviena žodžio raidę išskiriant brūkšniu ir paverčiant ją didžiąja raide, pvz.: "S-T-A-R-T".
+4.13. Tik tekstą (string tipo duomenis), tačiau kiekviena žodžio pirmą ir trečią raidę pakeičiant brūkšniu (underscore), pvz.: "_t_rt";
+4.14. Tik tekstą (string tipo duomenis), tačiau žodį parašant atvirkščiai, pvz.: vietoje "start" parašyti "trats";
+4.15. Tik tekstą (string tipo duomenis) ir prie kiekvieno teksto parašyti tarp kokių narių masyve jis yra, pvz.: "Word obuolys is between -5564 and -51 in the array".
+
+
+
+
+
+
+
+
+
+5. Atlikti ta patį, kaip ir ketvirtoje užduotyje, tačiau atsakymus išvesti ne į konsolę, o į ul elementus.
+
+5.1. Kiekvienai užduočiai HTML faile sukurti naują ul elementą ir jam priskirti unikalų id, pvz.:
+  <ul id="task-41"></ul>
+  <ul id="task-42"></ul>
+  <ul id="task-43"></ul>
+  Ir t.t.
+
+
+5.2. JavaScript'e paselektinti šiuos elementus.
+
+
+5.3. Kiekvienas ketvirtos užduoties ciklo atsakymas turėtų būti įdėtas į li elementą.
+
+
+
+5.4. Kiekvienas li elementas turėtų būti įdėtas į atitinkamą ul elementą.
+
+
+
+
+
+
+
+
+
+6. Visoms prieš tai atliktoms užduotims sukurti funkcijas. Jeigu tą pačia funkciją galima panaudoti keletui užduočių - taip ir padaryti.
+6.1. Funkcija privalo priimti bent vieną parametrą, t.y. masyvą, su kuriuo dirbama.
+6.2. Jeigu įmanoma ir logiška, pridėti ir daugiau parametrų.
+
+
+
+
+
+// let ulElement42 = document.createElement('ul')
+// let ulElement43 = document.createElement('ul')
+// let ulElement44 = document.createElement('ul')
+// let ulElement45 = document.createElement('ul')
+// let ulElement46 = document.createElement('ul')
+// let ulElement47 = document.createElement('ul')
+// let ulElement48 = document.createElement('ul')
+// let ulElement49 = document.createElement('ul')
+// let ulElement410 = document.createElement('ul')
+// let ulElement411 = document.createElement('ul')
+// let ulElement412 = document.createElement('ul')
+// let ulElement413 = document.createElement('ul')
+// let ulElement414 = document.createElement('ul')
+// let ulElement415 = document.createElement('ul')
+
+
+// ulElement42.id = 'task-42'
+// ulElement43.id = 'task-43'
+// ulElement44.id = 'task-44'
+// ulElement45.id = 'task-45'
+// ulElement46.id = 'task-46'
+// ulElement47.id = 'task-47'
+// ulElement48.id = 'task-48'
+// ulElement49.id = 'task-49'
+// ulElement410.id = 'task-410'
+// ulElement411.id = 'task-411'
+// ulElement412.id = 'task-412'
+// ulElement413.id = 'task-413'
+// ulElement414.id = 'task-414'
+// ulElement415.id = 'task-415'
